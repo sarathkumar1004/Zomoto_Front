@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    
+  }
+  .homeImage {
+    height: 450px;
+    width: 100%;
+  }
+  .navs {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-right: 20px;
+    margin-right: 30px;
+  }
+  .loginButton {  
+    background-color: transparent;
+    color: #fff;
+    border: none;
+  }
+  
+  .createButton {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .topSection {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+  }
+  .logos{
+    height:50px;
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+  }
+  .headerText {
+    height: 51px;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .headerText:hover {
+    color: gold;
+  }
+  .searchOptions {
+    margin-top: 30px;
+  }
+  .locationBox {
+    width: 245px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(239, 79, 95);;
+  }
+  .searchBox {
+    position: relative;
+  }
+  /* .nosearch{
+    background: white;
+    list-style: none;
+    width: 477px;
+    height: 45px;
+    position: absolute;
+    padding: 10px;
+    left: 44.1%;
+    top: 100%;
+    top:auto;
+    color: rgb(239, 79, 95);
+  } */
+  .nosearch {
+    list-style: none;
+    color: rgb(239, 79, 95);
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    position: absolute;
+    top: 35px;
+    left: 33px;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 100px;    
+   }
+  .searchBox i{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    color: rgb(239, 79, 95);
+  }
+  .searchInput {
+    width: 477px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 0 0 0 21px;
+    padding: 10px;
+    background-color: #fff;
+    padding-left: 30px;
+    font-size: 18px;
+    color: rgb(239, 79, 95);
+    outline: none;
+  }
+  .bottomSection {
+    margin: 50px 80px 80px 80px;
+  }
+  .heading1 {
+    height: 43px;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .subHeading {
+    height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+  }
+  .boxContainer {
+    margin-top: 30px;
+  }
+  .boxes {
+    display: inline-block;
+    width: 33%;
+  }
+  .boxContent {
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .qsImage {
+    width: 160px;
+    height: 160px;
+    margin: 0 29px 0 0;
+  }
+  .itemHeading {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .itemDescription {
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    max-width: 190px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+  }
+  
+  @media (max-width: 1136px) {
+    .itemDescription {
+      max-width: 150px;
+      left: 170px;
+      top: 30px;
+    }
+    .itemHeading {
+      left: 170px;
+    }
+  }
+  
+  @media (max-width: 920px) {
+    .boxes {
+      width: 49.5%;
+      display: block;
+    }
+    .loginButton {  
+        background-color: transparent;
+        color: #fff;
+        border: none;
+      }
+      .loginButton:hover {
+        color:blueviolet;
+      }
+      .loginButton:active {
+        color:rgb(239, 79, 95);
+      }
+      .createButton {
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+      }
+      .createButton:hover {
+        color:blueviolet;
+      }
+      .createButton:active{
+        color:rgb(239, 79, 95);
+      }
+    .boxContent {
+      left: -50px;
+    }
+    .itemDescription {
+      width: 150px;
+      left: 180px;
+      top: 50px;
+    }
+    .itemHeading {
+      left: 180px;
+    }
+    .searchInput {
+      width: 300px;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    .locationBox {
+      margin-top: 30px;
+      margin-left: 30px;
+      width:300px;
+      background-color: #fff;
+    }
+      .searchBox i{
+        display: none;
+      }
+      .headerText {
+    height: 51px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .headerText:hover {
+    color: gold;
+  }
+  .logo {
+    height:50px;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+  }
+  
+  }
+  

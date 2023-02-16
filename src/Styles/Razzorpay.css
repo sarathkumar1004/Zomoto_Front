@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.Razzor {
+    text-align: center;
+}
+.box {
+  position: relative;  
+  left: 600px;
+}
+.btn {
+    position: relative;
+    left: 670px;
+}

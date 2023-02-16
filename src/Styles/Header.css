@@ -1,0 +1,60 @@
+.top {
+    background-color:#ff0000;
+    height: 80px;
+  }
+  
+  .logo{
+    float: left;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: crimson;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  .Createaccount {
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding:10px;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 17px;
+    height: 50px;
+  }
+  .Createaccount:hover {
+    color:blueviolet;
+  }
+  .Createaccount:active{
+    color:rgb(239, 79, 95);
+  }
+  .Login {
+    float: left;
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 78%;
+  }
+  .Login:hover {
+    color:blueviolet;
+  }
+  .Login:active {
+    color:rgb(239, 79, 95);
+  }
+
+  
